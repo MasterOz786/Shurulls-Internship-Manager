@@ -1,0 +1,66 @@
+### Variables
+@baseUrl=http://localhost:5005/api
+@authToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjcyYjE2NmE5MTI1ZGM1MWIxNzE3NjdiIiwidXNlcm5hbWUiOiJIYW1tYWQiLCJyb2xlIjoic3R1ZGVudCJ9LCJpYXQiOjE3MzA4NzcwOTcsImV4cCI6MTczMDg4MDY5N30.CSGuXn1oKnUKl-W9jNGqjQtFze--55QFoXsSNn-OgSs
+@authToken1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjcyNGVmNGJlNWYxZmU4YjZhZjA0ZWY2IiwidXNlcm5hbWUiOiJhZG1pbnVzZXIxIiwicm9sZSI6ImFkbWluIn0sImlhdCI6MTczMDQ3MzgzMywiZXhwIjoxNzMwNDc3NDMzfQ._kmZ5Pd3OAfzDx2x0m8BVJzTBXCWu96fgHEsAUirIxM
+### Register a new user
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "username": "Hammad",
+  "email": "Hammad@example.com",
+  "password": "Hammad1234",
+  "role": "student"
+}
+
+### Login user
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "Hammad@example.com",
+  "password": "Hammad1234"
+}
+
+### Get user profile (Protected route)
+GET {{baseUrl}}/users/profile
+Authorization: Bearer {{authToken}}
+
+### Update user profile (Protected route)
+PUT {{baseUrl}}/users/profile
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+  "username": "Hammadupdated",
+  "email": "updatedHammad@example.com"
+}
+
+### Access admin dashboard (Protected route, admin only)
+GET {{baseUrl}}/users/admin
+Authorization: Bearer {{authToken}}
+
+### Register an admin user
+POST {{baseUrl}}/auth/register
+Content-Type: application/json
+
+{
+  "username": "adminuser1",
+  "email": "admin1@example.com",
+  "password": "adminpass1234",
+  "role": "admin"
+}
+
+### Login as admin
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin1@example.com",
+  "password": "adminpass1234"
+}
+
+
+### Access admin dashboard (Protected route, admin only)
+GET {{baseUrl}}/users/admin
+Authorization: Bearer {{authToken1}}
