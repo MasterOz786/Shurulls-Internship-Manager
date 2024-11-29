@@ -1,28 +1,48 @@
 {
-  "name": "22i-2511_se(b)_lab_11",
+  "name": "internee-management-system",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node src/server.js",
+    "dev": "concurrently \"vite\" \"npm run server\"",
+    "build": "vite build",
+    "server": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.2.0",
+    "@mui/material": "^5.14.10",
+    "@tanstack/react-query": "^4.35.3",
+    "axios": "^1.5.0",
     "bcryptjs": "^2.4.3",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "concurrently": "^9.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "framer-motion": "^10.16.4",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.8.2",
-    "nodemailer": "^6.9.16"
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.46.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.16.0",
+    "recharts": "^2.8.0",
+    "tailwindcss": "^3.3.3"
   },
-  "directories": {
-    "test": "tests"
-  },
-  "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "autoprefixer": "^10.4.15",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.29",
+    "vite": "^4.4.9"
   }
 }
