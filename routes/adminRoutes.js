@@ -1,7 +1,7 @@
 const express = require('express');
 const { createAdmin, getUsers, updateUser, deleteUser } = require('../controllers/adminController');
 const { checkRole } = require('../middleware/adminMiddleware');
-const { authenticateToken } = require('../middleware/authMiddleware');
+const { authenticate } = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
@@ -9,8 +9,8 @@ const router = express.Router();
 router.post('/create-admin', createAdmin);
 
 // Admin/Internee Management
-router.get('/users', authenticateToken, checkRole(['admin']), getUsers);
-router.put('/users/:id', authenticateToken, checkRole(['admin']), updateUser);
-router.delete('/users/:id', authenticateToken, checkRole(['admin']), deleteUser);
+router.get('/users', authenticate, checkRole(['admin']), getUsers);
+router.put('/users/:id', authenticate, checkRole(['admin']), updateUser);
+router.delete('/users/:id', authenticate, checkRole(['admin']), deleteUser);
 
 module.exports = router;

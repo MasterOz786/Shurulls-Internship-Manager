@@ -1,5 +1,4 @@
 const User = require('../models/User');
-const ObjectId = require('bson').ObjectId;
 
 exports.getProfile = async (req, res) => {
   try {
