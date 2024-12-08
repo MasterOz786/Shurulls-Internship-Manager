@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feat-chatbot
   "name": "internship-manager",
   "private": true,
   "version": "0.0.0",
@@ -46,6 +49,7 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
+<<<<<<< HEAD
 =======
   "name": "22i-2511_se(b)_lab_11",
   "version": "1.0.0",
@@ -72,5 +76,7 @@
   "devDependencies": {
     "nodemon": "^3.1.7"
 >>>>>>> origin/feat-admin-panel
+=======
+>>>>>>> origin/feat-chatbot
   }
 }

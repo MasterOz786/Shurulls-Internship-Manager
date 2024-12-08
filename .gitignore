@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/feat-chatbot
 # Logs
 logs
 *.log
@@ -23,7 +26,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 =======
 
 node_modules/
 >>>>>>> origin/feat-admin-panel
+=======
+>>>>>>> origin/feat-chatbot
