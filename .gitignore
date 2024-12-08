@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/feat-chatbot
 =======
 >>>>>>> origin/feat-performance
+=======
+>>>>>>> origin/feat-reporting
 # Logs
 logs
 *.log
@@ -31,6 +34,7 @@ dist-ssr
 *.sw?
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 node_modules/
@@ -39,3 +43,5 @@ node_modules/
 >>>>>>> origin/feat-chatbot
 =======
 >>>>>>> origin/feat-performance
+=======
+>>>>>>> origin/feat-reporting
