@@ -3,6 +3,7 @@ An internal system for organizations and startups to monitor and manage internee
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
 >>>>>>> origin/feat-performance
@@ -10,3 +11,5 @@ An internal system for organizations and startups to monitor and manage internee
 >>>>>>> origin/feat-reporting
 =======
 >>>>>>> origin/feat-resource-analytics
+=======
+>>>>>>> origin/feat-reviews
