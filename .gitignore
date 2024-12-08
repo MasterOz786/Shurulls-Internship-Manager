@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/feat-chatbot
+=======
+>>>>>>> origin/feat-performance
 # Logs
 logs
 *.log
@@ -27,9 +30,12 @@ dist-ssr
 *.sln
 *.sw?
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 node_modules/
 >>>>>>> origin/feat-admin-panel
 =======
 >>>>>>> origin/feat-chatbot
+=======
+>>>>>>> origin/feat-performance
