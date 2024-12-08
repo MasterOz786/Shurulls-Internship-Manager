@@ -3,12 +3,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/feat-chatbot
 =======
 >>>>>>> origin/feat-performance
 =======
 >>>>>>> origin/feat-reporting
+=======
+>>>>>>> origin/feat-resource-analytics
   "name": "internship-manager",
   "private": true,
   "version": "0.0.0",
@@ -58,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   "name": "22i-2511_se(b)_lab_11",
   "version": "1.0.0",
@@ -90,5 +94,7 @@
 >>>>>>> origin/feat-performance
 =======
 >>>>>>> origin/feat-reporting
+=======
+>>>>>>> origin/feat-resource-analytics
   }
 }
