@@ -4,7 +4,6 @@
 * 22i - 2511 (Awais)
 * 22i - 2434 (Hassaan)
 
-Introduced Change
 
 ## Deployment
 
